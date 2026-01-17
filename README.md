@@ -1,12 +1,13 @@
 # Willoughby Data Busters (WDATA) — Open Template Pack
 
 This repository contains an open, public template pack for **Willoughby Data Busters (WDATA)**:
-- **Discovery DSAR** (6 variants)
-- **14‑Day Reminder** (6 variants)
-- **7‑Day Final Notice** (6 variants)
-- **Article 21 Objection** (6 variants)
 
-Templates are designed for **UK GDPR / Data Protection Act 2018** style correspondence and are structured to support automated rendering (placeholders + random variant selection).
+- Discovery DSAR (**6 variants**)
+- 14‑Day Reminder (**6 variants**)
+- 7‑Day Final Notice (**6 variants**)
+- Article 21 Objection (**6 variants**)
+
+Templates are designed for **UK GDPR / Data Protection Act 2018** style correspondence and are structured to support automated rendering (placeholders + random variant selection). [Source](https://www.genspark.ai/api/files/s/9LwpP4dR)
 
 ## What’s in this repo
 
@@ -39,6 +40,7 @@ Templates use double-curly placeholders like:
 Important: placeholder names are a **strict contract** — downstream render/assembly expects exact spelling. [Source](https://www.genspark.ai/api/files/s/9LwpP4dR)
 
 ### Reference scheme
+
 - Original: `{{sar_reference_number}}`
 - 14‑Day Reminder: `{{sar_reference_number}}-14`
 - Final Notice: `{{sar_reference_number}}-7` [Source](https://www.genspark.ai/api/files/s/9LwpP4dR)
@@ -46,21 +48,20 @@ Important: placeholder names are a **strict contract** — downstream render/ass
 ## Intended use
 
 This repo is intended to be used as:
-- a **public/open template commons** (for transparency and reuse), and/or
-- a **source-of-truth** for automated systems that pull templates from GitHub and render them with user + controller data.
+
+- a public/open template commons (for transparency and reuse), and/or
+- a source-of-truth for automated systems that pull templates from GitHub, select a random variant, and render it by injecting placeholder values.
 
 ## Not legal advice (important)
 
-These templates are provided for **informational and automation tooling purposes only** and do **not** constitute legal advice.
-You are responsible for:
-- verifying legal accuracy for your situation and jurisdiction,
-- ensuring claims/requests are made in good faith,
-- complying with applicable laws and guidance.
+These templates are provided for informational and automation tooling purposes only and do not constitute legal advice. You are responsible for:
+
+- verifying legal accuracy for your situation and jurisdiction
+- ensuring claims/requests are made in good faith
+- complying with applicable laws and guidance
 
 ## License
 
 **CC0 1.0 Universal (Public Domain Dedication).**
 
 See [`LICENSE`](./LICENSE).
-
-
