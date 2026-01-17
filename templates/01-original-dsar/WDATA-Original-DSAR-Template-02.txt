@@ -1,0 +1,34 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer / Data Protection Team
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+Dear Sir or Madam,
+
+RE: Subject Access Request (DSAR) — UK GDPR Article 15
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+{{user_name}} | DOB: {{user_dob}}
+{{user_full_address}}
+{{user_email}} | {{user_phone}}
+
+REQUEST (ARTICLE 15)
+Please supply all personal data you hold about me and all information required by UK GDPR Article 15, including purposes, lawful basis (Article 6), sources, retention, and any profiling/automated decision-making.
+
+RECIPIENT LIST / ONWARD SHARING
+Please identify all third-party recipients (by name) and provide dates/timeframes and the categories of data disclosed to each.
+
+FORMAT (MACHINE-READABLE)
+CSV/JSON required (XLSX acceptable). PDFs only for supporting documents.
+
+TIME LIMIT
+One calendar month.
+
+Yours faithfully,
+{{user_name}}
