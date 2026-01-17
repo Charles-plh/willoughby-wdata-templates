@@ -1,0 +1,29 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+Dear Sir or Madam,
+
+RE: Objection to processing — UK GDPR Article 21
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+DOB: {{user_dob}}
+Address: {{user_full_address}}
+Email: {{user_email}}
+Phone: {{user_phone}}
+
+OBJECTION
+I object to processing for direct marketing (including any related profiling). I also object to processing and onward disclosures for marketing/analytics where legitimate interests is relied upon.
+
+Please confirm that direct marketing has ceased and provide any justification for continuing processing (other than direct marketing) if you believe you have compelling legitimate grounds.
+
+Yours faithfully,
+{{user_name}}
