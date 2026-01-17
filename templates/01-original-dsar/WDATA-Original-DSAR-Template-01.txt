@@ -1,1 +1,46 @@
-WDATA: export templates snapshot
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+To Whom It May Concern,
+
+RE: Subject Access Request (DSAR) — UK GDPR Article 15
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+Date of Birth: {{user_dob}}
+Full Address: {{user_full_address}}
+Email: {{user_email}}
+Contact Number: {{user_phone}}
+
+REQUEST
+Please provide a copy of all personal data you hold about me and the required supplementary information under UK GDPR Article 15, including:
+- Categories of personal data processed
+- Purposes of processing
+- Lawful basis relied upon (UK GDPR Article 6)
+- Source of the data (where not obtained directly from me)
+- Retention period(s) / criteria used to determine retention
+- Whether any profiling or automated decision-making is carried out (and meaningful information about the logic involved, where applicable)
+
+RECIPIENTS / DISCLOSURES
+Please provide the identity of all recipients to whom my personal data has been disclosed, including:
+- Third parties (including marketing/analytics partners, data brokers, processors)
+- The categories of data shared with each recipient
+- The date(s) or time period(s) of disclosures
+- The purpose and lawful basis for each disclosure
+
+FORMAT OF RESPONSE (AUTOMATION)
+Please provide the primary response in CSV/JSON (XLSX acceptable). PDFs are acceptable only for supporting documents.
+
+TIME LIMIT
+This is a data protection rights request. Please respond within one calendar month.
+
+Yours sincerely,
+{{user_name}}
