@@ -1,0 +1,39 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+Dear Data Protection Officer,
+
+RE: Subject Access Request (DSAR) — UK GDPR Article 15
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+DOB: {{user_dob}}
+Address: {{user_full_address}}
+Email: {{user_email}}
+Phone: {{user_phone}}
+
+REQUEST (DISCOVERY FOCUS)
+Please provide my personal data and a clear breakdown of:
+- What personal data you hold
+- Why you process it
+- The lawful basis used (Article 6)
+- Who you share it with (recipient list with names + dates/timeframes)
+- How long you retain it
+- Any profiling / automated decisioning (if any)
+
+FORMAT
+Please provide your main response in CSV/JSON (XLSX acceptable). PDFs only for supporting docs.
+
+TIME LIMIT
+One calendar month.
+
+Yours sincerely,
+{{user_name}}
