@@ -1,0 +1,49 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+Dear Data Protection Officer,
+
+RE: FINAL 7-DAY NOTICE BEFORE LEGAL PROCEEDINGS
+
+Original Reference: {{sar_reference_number}}
+14-Day Reminder Reference: {{sar_reference_number}}-14
+Final Notice Reference: {{sar_reference_number}}-7
+
+PREVIOUS CORRESPONDENCE
+Original DSAR date: {{original_sar_date}}
+14-Day Reminder date: {{reminder_14day_date}}
+Final Notice date: {{current_date}}
+
+REQUESTOR INFORMATION
+{{user_name}} | {{user_dob}}
+{{user_full_address}}
+{{user_email}} | {{user_phone}}
+
+SEVEN DAY DEADLINE
+Seven (7) days from this letter.
+
+LEGAL PROCEEDINGS TO BE INITIATED
+If you fail to comply, I will file a County Court claim under Sections 167 and 168 of the Data Protection Act 2018 for:
+Compensation for distress: £1,000.00
+Court issue fee: £70.00
+Total amount claimed: £1,070.00
+
+ICO ENFORCEMENT ACTION
+Enforcement action may include penalties of up to £17.5 million or 4% of annual global turnover.
+ICO: Wycliffe House, Water Lane, Wilmslow, Cheshire SK9 5AF | 0303 123 1113 | www.ico.org.uk
+
+INFORMATION TO BE PROVIDED
+Provide all personal data plus disclosure/recipient information and processing rationale. Response must be machine-readable.
+
+FORMAT
+CSV/JSON required (XLSX acceptable). PDFs only for supporting documents.
+
+Yours sincerely,
+{{user_name}}
