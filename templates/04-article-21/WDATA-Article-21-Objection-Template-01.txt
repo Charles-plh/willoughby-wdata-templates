@@ -1,1 +1,39 @@
-WDATA: export templates snapshot
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+To Whom It May Concern,
+
+RE: Objection to processing — UK GDPR Article 21
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+Date of Birth: {{user_dob}}
+Full Address: {{user_full_address}}
+Email: {{user_email}}
+Contact Number: {{user_phone}}
+
+OBJECTION (ARTICLE 21)
+I object to the processing of my personal data for:
+- direct marketing; and/or
+- profiling related to direct marketing; and/or
+- onward sharing/disclosure to third parties for marketing/analytics purposes; and/or
+- processing based on legitimate interests where my interests, rights and freedoms override your stated interests.
+
+REQUEST
+Please:
+1) confirm whether you are processing my data for the above purposes;
+2) stop the processing to the extent required by Article 21; and
+3) confirm what steps you have taken.
+
+If you maintain that you have compelling legitimate grounds to continue any processing (other than direct marketing), please provide your justification.
+
+Yours sincerely,
+{{user_name}}
