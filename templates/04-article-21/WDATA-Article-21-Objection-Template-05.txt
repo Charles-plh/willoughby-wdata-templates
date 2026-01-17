@@ -1,0 +1,32 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer / Data Protection Team
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+To Whom It May Concern,
+
+RE: Objection to processing — UK GDPR Article 21
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+DOB: {{user_dob}}
+Address: {{user_full_address}}
+Email: {{user_email}}
+Phone: {{user_phone}}
+
+OBJECTION
+I object to any direct marketing and related profiling. I also object to onward sharing for marketing/analytics where legitimate interests is relied upon.
+
+Please confirm:
+- whether my data has been shared for marketing/analytics;
+- the date you stopped the processing complained of; and
+- any continuing processing and your stated grounds.
+
+Yours sincerely,
+{{user_name}}
