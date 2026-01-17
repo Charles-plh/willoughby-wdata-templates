@@ -1,0 +1,35 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer / Data Protection Team
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+To Whom It May Concern,
+
+RE: 14-DAY REMINDER — Subject Access Request (DSAR)
+Original Reference: {{sar_reference_number}}
+14-Day Reminder Reference: {{sar_reference_number}}-14
+
+PREVIOUS CORRESPONDENCE
+Original DSAR: {{original_sar_date}}
+Reminder: {{current_date}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+DOB: {{user_dob}}
+Address: {{user_full_address}}
+Email: {{user_email}}
+Phone: {{user_phone}}
+
+14-DAY DEADLINE
+Fourteen (14) days from the date of this reminder.
+
+FORMAT
+Machine-readable CSV/JSON (XLSX acceptable). PDFs only for supporting docs.
+
+Yours sincerely,
+{{user_name}}
