@@ -1,0 +1,39 @@
+{{user_name}} {{user_address_line_1}} {{user_address_line_2}} {{user_city}} {{user_postcode}} {{user_email}} {{user_phone}}
+
+{{current_date}}
+
+Data Protection Officer
+{{supermarket_name}}
+{{supermarket_address_line_1}}
+{{supermarket_city}}
+{{supermarket_postcode}}
+
+Dear Sir or Madam,
+
+RE: Subject Access Request (DSAR) — UK GDPR Article 15
+Reference: {{sar_reference_number}}
+
+REQUESTOR INFORMATION
+Name: {{user_name}}
+DOB: {{user_dob}}
+Address: {{user_full_address}}
+Email: {{user_email}}
+Phone: {{user_phone}}
+
+REQUEST (LIST FORMAT)
+1. Copy of all personal data you hold about me.
+2. Purposes of processing.
+3. Lawful basis for each purpose (Article 6).
+4. Full recipient list and onward disclosures (names, dates/timeframes, categories of data).
+5. Sources of my personal data.
+6. Retention period(s)/criteria.
+7. Profiling/automated decision-making (if applicable).
+
+FORMAT
+CSV/JSON (XLSX acceptable). PDFs only for supporting docs.
+
+TIME LIMIT
+One calendar month.
+
+Yours faithfully,
+{{user_name}}
